@@ -1,6 +1,7 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
+$font-family-override: "Buenard", Georgia, "Times New Roman", Times, serif;
 
 .browsehappy {
     margin: 0.2em 0;
@@ -13,6 +14,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: $font-family-override;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: $font-family-override;
+    font-weight: 700;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
