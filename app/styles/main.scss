@@ -8,6 +8,16 @@ $text-muted: #F87B7B;
   color: $text-muted;
 }
 
+.navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-nav {
+    li {
+        font-size: 18px;
+    }
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -35,7 +45,7 @@ body {
 }
 
 .headline {
-    padding: 60px 0;
+    padding: 22px 0;
 }
 
 .headline > .container > h1 {
