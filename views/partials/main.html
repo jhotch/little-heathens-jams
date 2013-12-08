@@ -1,28 +1,71 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
-  </ul>
-  <h3 class="text-muted">littleHeathensJams</h3>
-</div>
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" scroll-on-click="" href="#headline">Little Heathens Gourmet Jams</a>
+    </div>
 
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/5f583bc9.yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a scroll-on-click="" href="#about">Local</a></li>
+        <li><a scroll-on-click="" href="#services">Fresh</a></li>
+        <li><a scroll-on-click="" href="#contact">Flavors</a></li>
+        <li><a href="https://www.goodsmiths.com/little-heathens-gourmet-jams" target="_blank">Store</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
 
-<div class="row marketing">
-  <div ng-repeat="thing in awesomeThings">
-      <h4>{{thing.name}}</h4>
-      <p>{{thing.info}}</p>
+<div class="headline" id="headline">
+  <div class="container">
+    <div class="fb-follow" data-href="https://www.facebook.com/LittleHeathensGourmetJams" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
+    <h1>Little Heathens Gourmet Jams</h1>
+    <div class="header-image"></div>
   </div>
 </div>
 
-<div class="footer">
-  <p>♥ from the Yeoman team</p>
-</div>
+<div class="container">
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider" id="about">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle img-responsive pull-right" src="/images/6ce4fac4.hand_made.jpg">
+    <h2 class="featurette-heading">Locally Produced <span class="text-muted">and Hand-Made</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+
+  <hr class="featurette-divider" id="services">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle img-responsive pull-left" src="/images/4607a2a6.fresh.jpg">
+    <h2 class="featurette-heading">Fresh Ingredients <span class="text-muted">and Natural Flavors</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+
+  <hr class="featurette-divider" id="contact">
+
+  <div class="featurette">
+    <img class="featurette-image img-circle img-responsive pull-right" src="/images/19b38fc2.flavors.jpg">
+    <h2 class="featurette-heading">Bold, New Recipes <span class="text-muted">and Old Favorites</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+
+  <!-- /END THE FEATURETTES -->
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Copyright &copy; Little Heathens Gourmet Jams 2013</p>
+  </footer>
+  <!-- /END OF FOOTER -->
+
+</div><!-- /container -->
