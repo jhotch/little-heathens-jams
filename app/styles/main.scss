@@ -137,6 +137,9 @@ footer {
 .headline > .container > h1 {font-size: 60px;}
 .headline > .container > h2 {font-size: 30px;}
 .navbar-brand {font-size: 19px;}
+.header-logo {
+    width: 100%;
+}
 .header-image {
     background: url('/images/header_image_sm.jpg') center center no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
     background-size: cover;
@@ -155,6 +158,9 @@ footer {
 .featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
 .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
 .navbar-brand {font-size: 18px;}
+.header-logo {
+    width: 100%;
+}
 .header-image {
     background: url('/images/header_image_x_sm.jpg') center center no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
     background-size: cover;
