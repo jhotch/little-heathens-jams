@@ -136,6 +136,14 @@ footer {
 .headline {padding: 75px 0 25px 0;}
 .headline > .container > h1 {font-size: 60px;}
 .headline > .container > h2 {font-size: 30px;}
+.header-image {
+    background: url('/images/header_image_sm.jpg') center center no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-size: cover;
+    height: 274px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
 }
 
@@ -145,5 +153,13 @@ footer {
 .featurette-image {max-width: 100%;}
 .featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
 .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+.header-image {
+    background: url('/images/header_image_sm.jpg') center center no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+    background-size: cover;
+    height: 274px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
 }
